@@ -1,0 +1,509 @@
+.credit-row div:nth-child(1) {
+  margin-right: 1rem;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #777;
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.cover, .bgimg-2, .bgimg-3 {
+  position: relative;
+  /* opacity: 0.65; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cover {
+  background-image: url("https://storage.googleapis.com/afs-prod/media/e06d568c8b9b4746b8f9b5fccfee2667/1050.jpeg");
+  min-height: 100%;
+}
+
+.member-title {
+  text-align: center;
+  font-size: 54px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #FFF;
+  margin-top: 400px;
+  padding: 34px;
+  margin-bottom: 64px;
+}
+
+.member {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  margin-bottom: 800px;
+}
+
+.mem {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.6;
+}
+
+.mem:hover {
+  transition: 0.5s ease-out;
+  opacity: 1;
+}
+
+hr {
+  top: 80%;
+  background: rgb(121, 121, 121);
+  height: 1px;
+  border: 0;
+}
+
+.mem-align {
+  position: relative;
+  display: inline-block;
+  left: 10%;
+  top: 85%;
+}
+
+.mem-name {
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 0.2rem;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.mem-role {
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.introduce {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #FFF;
+  margin-top: 400px;
+  margin-bottom: 500px;
+}
+
+.band-name {
+  width: 40rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: "Pretendard";
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 48px;
+}
+
+.band-intro {
+  width: 35rem;
+  text-align: center;
+  opacity: 60%;
+  font-family: "inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 35px;
+}
+
+.bgimg-2 {
+  background-image: url("https://dynamicmedia.livenationinternational.com/p/x/a/da684b29-649b-434c-b8b4-2620856b59cd.jpg");
+  min-height: 600px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 54px;
+  padding: 2rem 2rem;
+  margin-top: 16rem;
+  margin-bottom: 4rem;
+  color: #fff;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.discography {
+  color: #cccccc;
+  padding: 0 1rem;
+  margin: 300px auto 800px auto;
+  max-width: 1200px;
+  font-size: 1rem;
+  background-color: #000;
+}
+
+table {
+  border-top: 2px solid #fffcfe;
+  border-bottom: 2px solid #ababab;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0 1rem;
+  text-align: left;
+  background-color: #000;
+  margin-bottom: 400px;
+}
+
+table tr, table td, table th {
+  border: 1px solid #818181;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-left: none;
+  border-right: none;
+  background-color: #000;
+}
+
+table td:nth-of-type(even) {
+  text-align: left;
+  padding-left: 5rem;
+}
+
+table td:nth-of-type(odd) {
+  text-align: center;
+  padding-left: 2rem;
+}
+
+ul {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+}
+
+.album {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  padding: 300px 90px 200px 90px;
+}
+
+.col-1 {
+  padding-right: 81px;
+}
+
+.col-2 {
+  width: 500px;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.album-main {
+  width: 680px;
+  height: 820px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.album-des-title {
+  color: #fff;
+  font-size: 54px;
+  margin-bottom: 16px;
+  margin-top: 8px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.album-des-cap {
+  width: 85%;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 1.6rem;
+  font-size: 1rem;
+  margin-bottom: 30px;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 100;
+  line-height: 1.6rem;
+}
+
+.album-des-play {
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 16px 13px 16px;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-radius: 100px;
+  display: inline-block;
+}
+
+.album-sub {
+  display: flex;
+}
+
+.album-sub-1 {
+  margin-right: 30px;
+}
+
+.album-sub-1, .album-sub-2 {
+  width: 235px;
+  height: 267px;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.explore {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.row1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.row1 .explore-box:nth-child(1) {
+  margin-left: 0px;
+}
+
+.row2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.row2 .explore-box:nth-child(1) {
+  margin-left: 0px;
+}
+
+.explore-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  margin-left: 18px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  width: 225px;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.footer {
+  margin: 6vh auto;
+  max-width: 980px;
+  align-items: center;
+}
+
+.linktree {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.icon {
+  padding: 0.6rem;
+  opacity: 0.8;
+}
+
+.icon:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.border-bar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.credit {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.credit-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0.5rem;
+  padding-bottom: 0.2rem;
+}
+
+.first {
+  padding-left: 14px;
+}
+
+.mid {
+  padding-left: 10px;
+}
+
+.fin {
+  padding-bottom: 100px;
+  padding-left: 2px;
+}
+
+.display {
+  display: flex;
+  background-color: #ffffff;
+}
+
+.left-info {
+  background-color: #ffffff;
+  width: 70vw;
+  height: 100vh;
+  z-index: 99;
+  left: 100;
+}
+
+.right-info {
+  position: fixed;
+  width: 30vw;
+  height: 100vh;
+  background-color: #000;
+  right: 0;
+  padding: 36px;
+  line-height: 1.4;
+  display: block;
+  z-index: 999;
+}
+
+.detail-title {
+  color: #FFF;
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  font-size: 54px;
+  padding-bottom: 20px;
+}
+
+.detail-des-1, .detail-des-2 {
+  font-size: 16px;
+  line-height: 1.6rem;
+}
+
+.detail-des-2 {
+  padding-bottom: 50rem;
+}
+
+.content-1, .content-2, .content-3 {
+  background-color: #ffffff;
+  left: 100;
+}
+
+.back {
+  font-size: 24px;
+  text-align: end;
+  opacity: 0.5;
+}
+
+.back:hover {
+  transition: 0.5s ease-out;
+  opacity: 1;
+}
+
+a:visited, a:link, a:active {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.content-1 {
+  padding: 160px 160px;
+  z-index: 0;
+}
+
+.content-2 {
+  display: flex;
+  padding: 300px 160px;
+}
+.content-2 .co2-img:nth-child(1) {
+  margin-right: 24px;
+}
+
+.content-3 {
+  display: flex;
+  padding: 300px 160px 300px 160px;
+}
+
+.col-img {
+  display: block;
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.co2-img {
+  width: 60%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.co3-img {
+  width: 33%;
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-right: 32px;
+}
+
+html ::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
