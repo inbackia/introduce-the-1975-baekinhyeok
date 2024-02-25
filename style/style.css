@@ -420,6 +420,12 @@ ul {
   z-index: 999;
 }
 
+.right-info a {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+}
+
 .detail-title {
   color: #FFF;
   font-family: "Pretendard";
@@ -433,10 +439,6 @@ ul {
 .detail-des-1, .detail-des-2 {
   font-size: 16px;
   line-height: 1.6rem;
-}
-
-.detail-des-2 {
-  padding-bottom: 50rem;
 }
 
 .content-1, .content-2, .content-3 {
