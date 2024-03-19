@@ -28,7 +28,7 @@ body, html {
 }
 
 .cover {
-  background-image: url("https://storage.googleapis.com/afs-prod/media/e06d568c8b9b4746b8f9b5fccfee2667/1050.jpeg");
+  background-image: url(1975cover.jpg);
   min-height: 100%;
 }
 
